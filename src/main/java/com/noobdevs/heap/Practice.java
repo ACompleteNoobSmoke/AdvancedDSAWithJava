@@ -15,7 +15,7 @@ public class Practice {
     }
 
     public void add(int newNum) {
-        heap.insert(newNum);
+        heap.push(newNum);
     }
 
     public int max() {
